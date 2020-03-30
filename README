@@ -1,0 +1,12 @@
+Convert a PPM ASCII (P3 magic number) image to a mapping of math problem
+answers to pixel colors, formatted as csv so it can be printed as a spread
+sheet.
+
+Takes a problem mapping file and a ppm image file.
+
+Problem file:
+csv file, first line is instructions on how the problem answer maps to a problem key
+example: "Ends with" : answer ends with 1 use color 1
+The remaining lines are a key plus a list of problems that map to that key.
+
+Run the script to produce the ppm, then load or paste the ppm in a spread sheet. Change column widths and heights for square pixels and the font to fit in the pixels.
